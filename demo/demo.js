@@ -1,4 +1,4 @@
-angular.module('demo', ['ng.treeView'])
+angular.module('demo', ['ng.dynamicInput'])
   .controller('DemoController', ['$scope',
     function ($scope) {
       $scope.testInputModel = {};

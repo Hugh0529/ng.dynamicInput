@@ -1,4 +1,4 @@
-angular.module('ng.treeView', [])
+angular.module('ng.dynamicInput', [])
 // dynamic input
   .directive('dynamicInput', ['$compile', function ($compile) {
     return {
