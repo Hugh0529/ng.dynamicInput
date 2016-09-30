@@ -32,7 +32,7 @@ angular.module('ng.treeView', [])
           scope[inputId] = scope[inputId] || {};
 
           // set template
-          angular.forEach(sourceModel, function (value, key) {
+          angular.forEach(scope[sourceModel], function (value, key) {
             if (value) {
               template = template +
                 '<div class="' + wrapperStyle + '">' +
